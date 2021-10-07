@@ -1,0 +1,74 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #FEF2F2, #FFFBEB)
+}
+
+.alinhamentoPagina {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.imagemKarolGolfeto {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: #78350F 7px solid;
+    margin-bottom: 15px;
+}
+
+.imagemKarolGolfeto img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Roboto Slab", serif;
+    color: #7F1D1D;
+    margin: 15px;
+}
+
+.apresentacao {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 900px;
+    color: #78350F;
+    margin-bottom: 22px;
+    line-height: 160%;
+}
+
+.apresentacao p {
+    margin: 15px;
+    
+}
+
+.linksParaContato {
+    text-align: center;
+    display: flex;
+    border-top: 1px solid hsla(22, 78%, 26%, 0.1);
+    border-bottom: 1px solid hsla(22, 78%, 26%, 0.1);
+    padding: 9px;
+}
+
+.styleLinks {
+    text-decoration: none;
+    color: #78350F;
+    opacity: 50%;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a.styleLinks:hover {
+    color: #7F1D1D;
+    opacity: 100%;
+}
