@@ -3,12 +3,17 @@ body {
     background: linear-gradient(45deg, #FEF2F2, #FFFBEB)
 }
 
+br {
+    display: none;
+}
+
 .alinhamentoPagina {
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    padding: 25px 0px 25px 0px;
 }
 
 .imagemKarolGolfeto {
@@ -45,19 +50,19 @@ body {
     margin-bottom: 22px;
     padding: 0px 15px 0px 15px;
     line-height: 160%;
-
 }
 
 .apresentacao p {
-    margin: 15px;
-    
+    margin: 15px;       
 }
 
 .linksParaContato {
+    flex-wrap: wrap;
     display: flex;
+    justify-content: center;
     border-top: 1px solid hsla(22, 78%, 26%, 0.1);
     border-bottom: 1px solid hsla(22, 78%, 26%, 0.1);
-    padding: 9px;
+    padding: 9px 15px 9px 15px;
 }
 
 .styleLinks {
@@ -74,3 +79,19 @@ a.styleLinks:hover {
     color: #7F1D1D;
     opacity: 100%;
 }
+
+@media (max-width: 425px) { 
+    .apresentacao {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .titulo {
+        font-size: 28px;
+        margin-bottom: 0px;  
+        margin-top: 0px;      
+    }
+    br {
+        display: inline;
+    }
+
+ }
