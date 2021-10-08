@@ -39,10 +39,13 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     text-align: center;
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     color: #78350F;
     margin-bottom: 22px;
+    padding: 0px 15px 0px 15px;
     line-height: 160%;
+
 }
 
 .apresentacao p {
@@ -51,7 +54,6 @@ body {
 }
 
 .linksParaContato {
-    text-align: center;
     display: flex;
     border-top: 1px solid hsla(22, 78%, 26%, 0.1);
     border-bottom: 1px solid hsla(22, 78%, 26%, 0.1);
